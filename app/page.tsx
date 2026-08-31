@@ -329,11 +329,11 @@ export default function Home() {
             <a href="#services" className="hover:text-[#11aecd]">Services</a>
             <a href="#approach" className="hover:text-[#11aecd]">Our Approach</a>
             <a href="#trade" className="hover:text-[#11aecd]">For Trade</a>
-            <a href="#contact" className="hover:text-[#11aecd]">Contact</a>
+            <a href="/contact" className="hover:text-[#11aecd]">Contact</a>
           </nav>
 
           <a
-            href="#contact"
+            href="/contact"
             className="rounded-full border-2 border-[#11c7e8] px-5 py-2.5 text-sm font-semibold transition hover:bg-[#11c7e8] hover:text-[#071824]"
           >
             Book a Diagnostic
@@ -375,7 +375,7 @@ export default function Home() {
 
             <div className="mt-7 flex flex-wrap gap-3">
               <a
-                href="#contact"
+                href="/contact"
                 className="rounded-full bg-[#0b2034] px-6 py-3 font-semibold text-white transition hover:bg-[#15344f]"
               >
                 Discuss a vehicle
@@ -588,7 +588,7 @@ export default function Home() {
               </a>
 
               <a
-                href="mailto:"
+                href="/contact"
                 className="flex items-center justify-between rounded-xl border border-[#9fb4c1] bg-white px-5 py-3 text-sm font-semibold transition hover:border-[#11bfe0]"
               >
                 <span className="flex items-center gap-3">
