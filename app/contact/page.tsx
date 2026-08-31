@@ -136,16 +136,53 @@ export default function ContactPage() {
           </div>
 
           <div className="mt-7 rounded-2xl bg-[#0b2034] p-6 text-white">
-            <p className="font-bold text-[#11c7e8]">Prefer to email us?</p>
-            <p className="mt-2 text-sm leading-6 text-white/70">
-              You can also contact us directly at:
+            <p className="font-bold text-[#11c7e8]">
+              Contact The Diagnostic Studio
             </p>
-            <a
-              href="mailto:hello@thediagnosticstudio.co.uk"
-              className="mt-3 inline-block font-semibold text-white underline decoration-[#11c7e8] underline-offset-4"
-            >
-              hello@thediagnosticstudio.co.uk
-            </a>
+
+            <div className="mt-4 space-y-3 text-sm leading-6 text-white/75">
+              <p>
+                <span className="block text-xs font-bold uppercase tracking-[0.18em] text-white/45">
+                  Phone
+                </span>
+                <a
+                  href="tel:07927336199"
+                  className="font-semibold text-white transition hover:text-[#11c7e8]"
+                >
+                  07927 336199
+                </a>
+              </p>
+
+              <p>
+                <span className="block text-xs font-bold uppercase tracking-[0.18em] text-white/45">
+                  Email
+                </span>
+                <a
+                  href="mailto:hello@thediagnosticstudio.co.uk"
+                  className="font-semibold text-white transition hover:text-[#11c7e8]"
+                >
+                  hello@thediagnosticstudio.co.uk
+                </a>
+              </p>
+
+              <p>
+                <span className="block text-xs font-bold uppercase tracking-[0.18em] text-white/45">
+                  Workshop
+                </span>
+                25b Flightway Business Park
+                <br />
+                Dunkeswell, Honiton
+                <br />
+                EX14 4RD
+              </p>
+
+              <p>
+                <span className="block text-xs font-bold uppercase tracking-[0.18em] text-white/45">
+                  Opening hours
+                </span>
+                Monday–Friday, 8:00am–5:30pm
+              </p>
+            </div>
           </div>
         </div>
 

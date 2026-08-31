@@ -577,12 +577,12 @@ export default function Home() {
 
             <div className="flex flex-col gap-3">
               <a
-                href="tel:"
+                href="tel:07927336199"
                 className="flex items-center justify-between rounded-xl bg-[#0b2034] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#15344f]"
               >
                 <span className="flex items-center gap-3">
                   <PhoneIcon />
-                  Call The Diagnostic Studio
+                  07927 336199
                 </span>
                 <span className="text-xl">→</span>
               </a>
@@ -603,7 +603,7 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#0b2034] text-white">
-        <div className="mx-auto grid max-w-7xl gap-7 px-6 py-7 md:grid-cols-[1.1fr_1.1fr_0.9fr_auto] md:items-center lg:px-10">
+        <div className="mx-auto grid max-w-7xl gap-7 px-6 py-7 md:grid-cols-[0.9fr_1.35fr_0.85fr_auto] md:items-center lg:px-10">
           <div className="flex items-center gap-4">
             <div className="flex h-11 w-14 items-center justify-center rounded-lg bg-white/10 font-black">
               TD<span className="text-[#11c7e8]">S</span>
@@ -615,16 +615,31 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="text-sm leading-6 text-white/65">
-            Advanced vehicle diagnostics,
-            <br />
-            programming & fault finding.
-          </p>
+          <div className="text-xs leading-5 text-white/65">
+            <p>25b Flightway Business Park, Dunkeswell, Honiton EX14 4RD</p>
+            <p className="mt-1">
+              <a href="tel:07927336199" className="transition hover:text-[#11c7e8]">
+                07927 336199
+              </a>
+              <span className="px-2 text-white/30">•</span>
+              <a
+                href="mailto:hello@thediagnosticstudio.co.uk"
+                className="transition hover:text-[#11c7e8]"
+              >
+                hello@thediagnosticstudio.co.uk
+              </a>
+            </p>
+            <p className="mt-1">Monday–Friday, 8:00am–5:30pm</p>
+          </div>
 
           <p className="text-xs leading-5 text-white/55">
             © The Diagnostic Studio 2026
             <br />
             All rights reserved.
+            <br />
+            <a href="/privacy" className="transition hover:text-[#11c7e8]">
+              Privacy notice
+            </a>
           </p>
 
           <div className="flex items-center gap-5 text-white">
