@@ -316,7 +316,14 @@ export default function ContactPage() {
 
           <p className="mt-5 text-center text-xs leading-5 text-[#71808d]">
             Please don't include passwords, PINs or other sensitive security
-            information in this form.
+            information in this form. By sending an enquiry, you agree that we
+            may use the information you provide to respond to your request.{" "}
+            <a
+              href="/privacy"
+              className="font-semibold text-[#0b2034] underline decoration-[#11c7e8] underline-offset-2"
+            >
+              Privacy notice
+            </a>
           </p>
         </form>
       </section>
