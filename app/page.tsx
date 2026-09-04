@@ -616,7 +616,7 @@ export default function Home() {
           </div>
 
           <div className="text-xs leading-5 text-white/65">
-            <p>25b Flightway Business Park, Dunkeswell, Honiton EX14 4RD</p>
+            <p>Based in East Devon</p>
             <p className="mt-1">
               <a href="tel:07927336199" className="transition hover:text-[#11c7e8]">
                 07927 336199
