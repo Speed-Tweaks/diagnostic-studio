@@ -640,6 +640,10 @@ export default function Home() {
             <a href="/privacy" className="transition hover:text-[#11c7e8]">
               Privacy notice
             </a>
+            <span className="px-2 text-white/30">•</span>
+            <a href="/terms" className="transition hover:text-[#11c7e8]">
+              Terms & Conditions
+            </a>
           </p>
 
           <div className="flex items-center gap-5 text-white">
