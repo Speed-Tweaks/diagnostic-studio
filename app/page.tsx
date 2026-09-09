@@ -325,7 +325,7 @@ export default function Home() {
           </div>
 
           <nav className="hidden items-center gap-7 text-sm font-medium lg:flex">
-            <a href="#home" className="hover:text-[#11aecd]">Home</a>
+            <a href="/" className="hover:text-[#11aecd]">Home</a>
             <a href="#services" className="hover:text-[#11aecd]">Services</a>
             <a href="#approach" className="hover:text-[#11aecd]">Our Approach</a>
             <a href="#trade" className="hover:text-[#11aecd]">For Trade</a>
