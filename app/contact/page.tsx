@@ -169,9 +169,13 @@ export default function ContactPage() {
                 <span className="block text-xs font-bold uppercase tracking-[0.18em] text-white/45">
                   Workshop
                 </span>
-                East Devon
+                Unit 3, Block E
                 <br />
-                Workshop address coming soon
+                Flightway Business Park
+                <br />
+                Dunkeswell
+                <br />
+                EX14 4PP
               </p>
 
               <p>
